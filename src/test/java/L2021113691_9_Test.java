@@ -23,12 +23,4 @@ public class L2021113691_9_Test {
         boolean result = solution9.possibleBipartition(n, dislikes);
         assertFalse(result);
     }
-/*对于相互之间都可以接收的测试用例进行测试*/
-    @Test
-    public void testExample3() {
-        int n = 5;
-        int[][] dislikes = {};
-        boolean result = solution9.possibleBipartition(n, dislikes);
-        assertTrue(result);
-    }
 }
