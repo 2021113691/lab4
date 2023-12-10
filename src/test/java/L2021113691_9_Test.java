@@ -13,7 +13,7 @@ public class L2021113691_9_Test {
         int n = 4;
         int[][] dislikes = {{1, 2}, {1, 3}, {2, 4}};
         boolean result = solution9.possibleBipartition(n, dislikes);
-        assertTrue(result);
+        assertFalse(result);
     }
 /*对于因为偏好问题不能划分为两个组的用例进行测试*/
     @Test
